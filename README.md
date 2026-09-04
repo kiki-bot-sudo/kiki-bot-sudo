@@ -3,9 +3,6 @@
 **Estudiante de Desarrollo de Software** · Backend, Cloud y Datos
 📍 Mérida, Yucatán, México
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/enrique-zavala-martinez-4662943a6)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:Enrique.zavala@tecdesoftware.edu.mx)
-
 ---
 
 ## Sobre mí
