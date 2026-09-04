@@ -56,7 +56,24 @@ Backend de una red social diseñado desde cero, con foco en separar responsabili
 
 **Por qué así:** separar por capas hace que el proyecto se pueda extender (agregar nuevos endpoints o cambiar la base de datos) sin reescribir la lógica de negocio. Es la misma disciplina de "hacer las cosas bien desde el diseño" que aplico en cualquier proyecto, aunque sea uno personal.
 
-🔗 [github.com/kiki-bot-sudo/socialnetwork-EnriqueZavala](https://github.com/kiki-bot-sudo/socialnetwork-EnriqueZavala)
+🔗 [github.com/kiki-bot-sudo/socialnetwork-EnriqueZavala-3b](https://github.com/kiki-bot-sudo/socialnetwork-EnriqueZavala-3b)
+
+---
+
+### 📋 TaskFlow
+`C#` `ASP.NET Core` `Entity Framework Core` `PostgreSQL`
+
+Aplicación de gestión de tareas para estudiantes, con interfaz web (MVC) y API REST sobre la misma capa de servicios.
+
+**Lo que construí:**
+- Arquitectura en capas (Domain → Application → Infrastructure → API), documentada formalmente con **ADRs (Architecture Decision Records)**: contexto, decisión, alternativas consideradas y por qué se descartaron.
+- API REST con endpoints CRUD para tareas, DTOs propios y mapeo con AutoMapper, documentada con Swagger.
+- Persistencia con Entity Framework Core sobre PostgreSQL.
+- Las 4 vistas del modelo arquitectónico 4+1 (lógica, procesos, despliegue, física), documentadas con diagramas Mermaid.
+
+**Por qué así:** documentar las decisiones de arquitectura (no solo el código) es lo que le permite a cualquiera —incluido yo mismo meses después— entender por qué el proyecto está estructurado así y no de otra forma. Fue justo lo que permitió agregar la capa de API REST después sin tocar el dominio ni la lógica de negocio ya existente.
+
+🔗 [github.com/kiki-bot-sudo/Arq-Soft-TaskFlow-Enrique](https://github.com/kiki-bot-sudo/Arq-Soft-TaskFlow-Enrique)
 
 ---
 
